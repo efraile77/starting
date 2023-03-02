@@ -1,5 +1,7 @@
 name: Events Demo 1
-on: ...
+on: push
+  branches:
+    - master
 jobs:
   deploy:
     runs-on: ubuntu-latest
